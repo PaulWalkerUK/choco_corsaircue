@@ -19,7 +19,7 @@ Corsair Utility Engine (CUE) supports a wide-range of Corsair hardware. It suppo
     <copyright>©2017</copyright>
     <licenseUrl>http://www.corsair.com/en-us/downloads</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/angryhussord/choco_corsaircue/master/corsair_icon.PNG</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/angryhussord/choco_corsaircue/5bcb0c2b7baa67dca60ca15db065434ce6b40f24/corsair_icon.PNG</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
