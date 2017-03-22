@@ -1,6 +1,6 @@
-$packageName = 'hwmonitor';
-$installerType = 'exe';
-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-';
+$packageName = 'cue';
+$installerType = 'MSI';
+$silentArgs = '/QN';
 $validExitCodes = @(0);
 $packages = Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*', 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*', 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) -ErrorAction:SilentlyContinue;
 $packages | Where-Object { $_.DisplayName -like "$packageName*" } | ForEach-Object {
