@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>cue</id>
+    <title>Corsair CUE</title>
+    <version>2.11.115</version>
+    <authors>Corsair</authors>
+    <owners>angryhussord</owners>
+    <summary>Corsair Utility Engine allows you to control and synchronize dynamic lighting and macro effects.</summary>
+    <description>
+Corsair Utility Engine (CUE) supports a wide-range of Corsair hardware. It supports sophisticated lighting controls, unified customization of all of your Corsair peripherals, assigning actions to any programmable button, dynamic in-game interaction and a new and improved UI.
+</description>
+    <projectUrl>http://www.corsair.com/en-us/landing/cue</projectUrl>
+    <packageSourceUrl>https://github.com/angryhussord/choco_corsaircue</packageSourceUrl>
+    <mailingListUrl>http://www.corsair.com/en-us/company/contact</mailingListUrl>
+    <tags>admin hardware monitoring lighting macros driver peripherals corsair cue utility engine</tags>
+    <copyright>©2017</copyright>
+    <licenseUrl>http://www.corsair.com/en-us/downloads</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/angryhussord/choco_corsaircue/master/corsair_icon.PNG</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>http://forum.corsair.com/v3/showthread.php?t=166450</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
