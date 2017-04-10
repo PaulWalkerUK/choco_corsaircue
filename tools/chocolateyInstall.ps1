@@ -14,7 +14,7 @@ $packageArgs = @{
   silentArgs    = '/QN'
   validExitCodes= @(0)
   softwareName  = 'cue*'
-  checksum      = '5E0325D62BDACF301168C0FAF84A04B9'
+  checksum      = '48A4413FF4C06093889420E639812C0B5DBD318FAE4341F3016EAB64E2AE8448'
   checksumType  = 'sha256'
 };
 
