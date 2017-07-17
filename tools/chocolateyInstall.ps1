@@ -3,7 +3,7 @@
 $packageName = 'cue';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)";
 $installerType = 'MSI';
-$url = 'http://downloads.corsair.com/download?item=Files/CUE/CorsairUtilityEngineSetup_2.11.115_release.msi';
+$url = 'http://downloads.corsair.com/download?item=Files/CUE/CorsairUtilityEngineSetup_2.15.83_release.msi';
 
 $packageArgs = @{
   packageName   = $packageName
@@ -14,7 +14,7 @@ $packageArgs = @{
   silentArgs    = '/QN'
   validExitCodes= @(0)
   softwareName  = 'cue*'
-  checksum      = '48A4413FF4C06093889420E639812C0B5DBD318FAE4341F3016EAB64E2AE8448'
+  checksum      = '60E8D29300FDB786DD36FA82A0F9FE52674CAFDC1CC33D101393AF617D6504B7'
   checksumType  = 'sha256'
 };
 

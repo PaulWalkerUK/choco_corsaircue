@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>cue</id>
     <title>Corsair CUE</title>
-    <version>2.11.115.20170410</version>
+    <version>2.15.83</version>
     <authors>Corsair</authors>
     <owners>angryhussord</owners>
     <summary>Corsair Utility Engine allows you to control and synchronize dynamic lighting and macro effects.</summary>
