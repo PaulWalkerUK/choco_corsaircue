@@ -3,7 +3,7 @@
 $packageName = 'cue';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)";
 $installerType = 'MSI';
-$url = 'http://downloads.corsair.com/Files/CUE/iCUESetup_3.7.99_release.msi';
+$url = 'http://downloads.corsair.com/Files/CUE/iCUESetup_3.13.94_release.msi';
 
 $packageArgs = @{
   packageName   = $packageName
@@ -14,7 +14,7 @@ $packageArgs = @{
   silentArgs    = '/QN'
   validExitCodes= @(0)
   softwareName  = 'cue*'
-  checksum      = '86D286836454297E7C9F3A9B428020D4D6C0087F3116BF0167AFA64B59FCE7A0'
+  checksum      = '619CF1422646A47D8E1323DF9A56CC9C54A23BD4ECE217F7DAD21690CAB7B5A7'
   checksumType  = 'sha256'
 };
 
